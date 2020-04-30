@@ -53,7 +53,7 @@ echo "bash completion successfully installed"
 
 ## update terminal prompt
 echo "Updating terminal prompt.."
-curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh >> ~/.git-prompt.sh
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh > ~/.git-prompt.sh
 echo "Terminal prompt successfully updated"
 
 echo "Installing the data project.."
