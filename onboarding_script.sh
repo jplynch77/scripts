@@ -1,5 +1,5 @@
 echo "Copying bashrc file.."
-curl https://raw.githubusercontent.com/jplynch77/scripts/master/starter.sh >> ~/.bashrc
+curl https://raw.githubusercontent.com/jplynch77/scripts/master/starter.sh > ~/.bashrc
 echo "Copied successfully"
 
 ## install homebrew
@@ -65,7 +65,7 @@ echo "Data repo successfully installed"
 echo "Installing goto.."
 brew install goto
 touch ~/.inputrc
-echo -e "\$include /etc/inputrc\nset colored-completion-prefix on" >> ~/.inputrc
+echo -e "\$include /etc/inputrc\nset colored-completion-prefix on" > ~/.inputrc
 echo "goto successfully installed..."
 
 echo "Installing anaconda.."
