@@ -5,7 +5,7 @@ function dbt_run_changed() {
     dbt run --models $models
 }
 
-dbt_run_test() {
+function dbt_run_test() {
   dbt --single-threaded run --models "$1"
   dbt --single-threaded test --models "$1"
 }
